@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/student?useSSL=false
+    username: wking
+    password: king
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
