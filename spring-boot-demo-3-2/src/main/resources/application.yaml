@@ -1,0 +1,12 @@
+#32位的随机数
+itcast: 
+  secret: ${random.value}
+  number: ${random.int}
+  name: itcast
+  desc: ${itcast.name} java EE
+
+#日期格式化+时区
+spring: 
+  jackson: 
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+08:00
